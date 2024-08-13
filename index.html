@@ -23,16 +23,16 @@
         <h2>We’re TEAM DAKOTA, a photo and video duo</h2>
         <p>We travel the world together...</p>
         <div class="image-grid">
-          <div class="image-item">
+          <div class="image-item" onclick="changeGallery(1)">
             <img src="image1.jpg" alt="" />
             <p>Text One</p>
           </div>
-          <div class="image-item">
+          <div class="image-item" onclick="changeGallery(2)">
             <img src="image2.jpg" alt="" />
             <p>Text Two</p>
           </div>
-          <div class="image-item">
-            <img src="image2.jpg" alt="" />
+          <div class="image-item" onclick="changeGallery(3)">
+            <img src="image3.jpg" alt="" />
             <p>Text Three</p>
           </div>
         </div>
@@ -44,15 +44,18 @@
       <div class="container">
         <h2>We serve authentic, vibrant couples</h2>
         <p>We specialize in small, intimate weddings...</p>
-        <div class="image-grid">
+        <div class="image-grid" id="service-gallery">
           <div class="image-item">
-            <img src="image3.jpg" alt="" />
+            <img src="gallery1-1.jpg" alt="" />
           </div>
           <div class="image-item">
-            <img src="image4.jpg" alt="" />
+            <img src="gallery1-2.jpg" alt="" />
           </div>
           <div class="image-item">
-            <img src="image5.jpg" alt="" />
+            <img src="gallery1-3.jpg" alt="" />
+          </div>
+          <div class="image-item">
+            <img src="gallery1-4.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -62,5 +65,7 @@
     <footer class="footer">
       <p>&copy; 2024 Dakota. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
